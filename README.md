@@ -8,16 +8,16 @@
 
 *연구 주제 : 감성분석을 통한 배달 APP 리뷰 시스템 개선*
 
-### Background
+### 1. Background
 
 - 배달 앱을 통한 음식 구매가 크게 증가하고 있고 이러한 배달 앱에서 리뷰가 이용자들의 구매선택에 큰 영향을 미침
 - 현재 배달 앱 리뷰시스템은 영업점의 특성 및 장단점을 한 눈에 알기 어렵다고 판단 
 
-### Purpose
+### 2. Purpose
 
 - 기존 배달 APP의 리뷰 시스템보다 직관적이고 영업점 선별의 편리성을 제공할 수 있는 새로운 리뷰 시스템 구축
 
-### Approach
+### 3. Approach
 
 [데이터 분석 과정]
 
@@ -45,7 +45,7 @@
 (4) 모델링(Modeling)
 
 - Scikit Learn - Logistic Regression
-- 임계값(threshold) 수정
+- 임계값(threshold) 수정(0.5 -> 0.55)
 - 교차검증(Cross Validation - Stratified K-Fold)
 
 (5) 감성분류 및 키워드 분석(Sentiment Classification & Keyword Analysis)
@@ -57,4 +57,25 @@
 
 리뷰 시스템에 감성분류와 키워드 분석을 통한 정보를 제공할 뿐만 아니라 배달 APP 사용자들이 원하는 리뷰를 쉽게 검색하여 찾아볼 수 있는 기능 구현
 
+(1) 사용자 입력
+
+![image](https://user-images.githubusercontent.com/87981867/139672339-f8c6be59-4345-4920-b5ab-b0e5b50a1c6b.png)
+
+- input을 통해 사용자 입력을 받아 입력란에 원하는 단어를 입력
+
+(2) 리뷰 출력
+
+![image](https://user-images.githubusercontent.com/87981867/139672562-a52aa1ea-73ea-4ffc-8694-aa1f60a42b21.png)
+
+- '계란찜' 이라는 단어를 검색하여 '계란찜'이 포함된 리뷰들을 모두 출력
+- 음식의 카테고리, 영업점명, 사용자ID, 리뷰, 별점과 함께 출력
+
+[리뷰 시스템 UX/UI 디자인 설계]
+
+- 새로 개발한 기능들을 기반으로 새로운 리뷰 시스템 디자인 
+
 [설문조사]
+
+: 2~30대 남/여 50명을 대상으로 배달 APP 리뷰 시스템의 개선 여부에 대한 설문조사 실시(2021.11.03 ~ 2021.11.10)
+![image](https://user-images.githubusercontent.com/87981867/144854592-78c9e26a-1cc6-42a5-88c8-0b7ea5bfd6a6.png)
+
