@@ -26,6 +26,7 @@
 *웅이네오돌뼈닭발도*
 
 *요기요 웹 사이트 : https://www.yogiyo.co.kr/mobile/#/*
+
 ![image](https://user-images.githubusercontent.com/87981867/144852595-a7e0d940-4647-4d8c-b6c9-6069be83d302.png)
 
 (2) 데이터 전처리(Data Preprocessing)
