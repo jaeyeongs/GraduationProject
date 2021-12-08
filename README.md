@@ -73,6 +73,8 @@
 [리뷰 시스템 UX/UI 디자인 설계]
 
 : 새로 개발한 기능들을 기반으로 새로운 리뷰 시스템 디자인 
+![image](https://user-images.githubusercontent.com/87981867/145213902-34e9d767-e695-42fb-9691-3e1c10981628.png)
+
 
 [설문조사]
 
