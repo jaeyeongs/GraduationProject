@@ -47,7 +47,7 @@
 
 - Scikit Learn - Logistic Regression
 - 임계값(threshold) 수정(0.5 -> 0.55)
-- 교차검증(Cross Validation - Stratified K-Fold)
+- 교차검증(Cross Validation - Stratified K-Fold) *K = 4
 
 (5) 감성분류 및 키워드 분석(Sentiment Classification & Keyword Analysis)
 
@@ -91,7 +91,7 @@
 
 ### 5. Conclusion
 
-[개선 결과]
+[기대 효과]
 
 (1) 기존보다 직관적으로 요약 정보를 나타내며 필요한 정보를 찾을 수 있게 하여 영업점 선별 용이성 제공
 
